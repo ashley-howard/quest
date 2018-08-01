@@ -6,14 +6,26 @@ ul {
 .row-header {
     text-align: center;
     font-weight: 500;
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 .row-pokemon {
-    text-align: center;
+  text-align: center;
+  min-height: 65px;
 }
 
 .img-fluid.img-dex {
-    max-width: 65%;
+  max-width: 65%;
+  padding: 5px;
+}
+
+.footer-copyright {
+  margin-top: 5em;
+}
+
+@media only screen and (min-width: 1350px) {
+  .row-pokemon {
+    min-height: 120px;
+  }
 }
 
 /* M */
