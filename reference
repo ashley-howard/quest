@@ -1,0 +1,7 @@
+<a href="types/bug" class="bug"><i class="fas fa-bug"></i></a>
+<a href="types/poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
+<a href="types/grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
+<a href="types/fire" class="fire"><i class="fab fa-hotjar"></i></a>
+<a href="types/flying" class="flying"><i class="fas fa-dove"></i></a>
+<a href="types/water" class="water"><i class="fas fa-tint"></i></a>
+<i class="fas fa-bolt"></i>

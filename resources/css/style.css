@@ -7,6 +7,34 @@ a, a:hover {
   text-decoration: none;
 }
 
+a.grass {
+  color: #3ab73a
+}
+
+a.poison {
+    color: #c755c7;
+}
+
+a.fire {
+    color: #d83b3b;
+}
+
+a.flying {
+  color: #70cde8;
+}
+
+a.bug {
+  color:#008000;
+}
+
+a.water {
+  color: #89ccfb;
+}
+
+.col-type .fas, .col-type .fab {
+    font-size: 1.5em;
+}
+
 /* Navbar */
 .bg-primary {
   background: linear-gradient(120deg,rgba(7,135,225,.79),#9cc5f78c) !important;
@@ -89,8 +117,9 @@ body.pokemon .img-fluid.img-dex {
   padding: 0;
 }
 
-
-
+.row-pokemon div {
+  margin: auto;
+}
 
 
 
