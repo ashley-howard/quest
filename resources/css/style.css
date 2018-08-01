@@ -1,3 +1,12 @@
+body {
+    color: #444444;
+}
+
+a, a:hover {
+    color: #7abaff;
+    text-decoration: none;
+}
+
 .bg-primary {
   background-color: #007bff85 !important;
 }
@@ -34,6 +43,37 @@ ul {
   max-width: 65%;
   padding: 5px;
 }
+
+.navbar-green {
+  background-color: #46b979 !important;
+}
+.jumbotron-green {
+  background-color: #46b979;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer-copyright {
   margin-top: 5em;
