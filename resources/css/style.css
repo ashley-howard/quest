@@ -8,7 +8,7 @@ a, a:hover {
 }
 
 .bg-primary {
-  background-color: #007bff85 !important;
+  background-color: #7abaff !important;
 }
 
 .subtitle {
@@ -18,7 +18,7 @@ a, a:hover {
 .jumbotron {
   text-align: center;
   color: white;
-  background-color: #007bff85;
+  background-color: #7abaff;
   background-image: url("");
   background-repeat: no-repeat;
   background-position: center;
