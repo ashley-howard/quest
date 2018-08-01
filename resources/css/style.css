@@ -1,15 +1,15 @@
 body {
-    color: #444444;
+  color: #444444;
 }
 
 a, a:hover {
-    color: #7abaff;
-    text-decoration: none;
+  color: #7abaff;
+  text-decoration: none;
 }
 
 /* Navbar */
 .bg-primary {
-  background-color: #7abaff !important;
+  background: linear-gradient(120deg,rgba(7,135,225,.79),#9cc5f78c) !important;
 }
 
 button.navbar-toggler:focus {
@@ -19,20 +19,17 @@ button.navbar-toggler:focus {
 .jumbotron {
   text-align: center;
   color: #fff;
-  background-color: #7abaff;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: linear-gradient(120deg,rgba(7,135,225,.79),#9cc5f78c);
 }
 
 ul {
-    padding-left: 0px;
-    list-style-type: none;
+  padding-left: 0px;
+  list-style-type: none;
 }
 
 .row-header {
-    text-align: center;
-    font-weight: 500;
+  text-align: center;
+  font-weight: 500;
   font-size: 0.9em;
 }
 .row-pokemon {
@@ -45,11 +42,22 @@ ul {
   padding: 5px;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.jumbotron {
+  margin-top: 0px;
+  padding-top: 85px;
+}
+
 .navbar-green {
-  background-color: #46b979 !important;
+  background: linear-gradient(120deg,#14d867,rgba(7,135,225,.79));
 }
 .jumbotron-green {
-  background-color: #46b979;
+  background: linear-gradient(120deg,#14d867,rgba(7,135,225,.79));
 }
 
 .header-number {
@@ -57,23 +65,23 @@ ul {
 }
 
 .col-arrows {
-    margin: auto;
+  margin: auto;
 }
 
 .fas {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .col-arrows {
-    padding: 0;
+  padding: 0;
 }
 
 .col-arrows h3, .col-pokemon h3 {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .col-pokemon-middle {
-      padding: 0 10px;
+  padding: 0 10px;
 }
 
 body.pokemon .img-fluid.img-dex {
@@ -105,6 +113,18 @@ body.pokemon .img-fluid.img-dex {
 
 .footer-copyright {
   margin-top: 5em;
+}
+
+@media only screen and (min-width: 992px) {
+  .jumbotron {
+    margin-top: -56px;
+    padding-top: 80px;
+  }
+
+  .navbar {
+    background: transparent !important;
+    position: inherit;
+  }
 }
 
 @media only screen and (min-width: 1350px) {
