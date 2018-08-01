@@ -7,17 +7,18 @@ a, a:hover {
     text-decoration: none;
 }
 
+/* Navbar */
 .bg-primary {
   background-color: #7abaff !important;
 }
 
-.subtitle {
-  font-weight: inherit;
+button.navbar-toggler:focus {
+  outline: 5px auto #fff;
 }
 
 .jumbotron {
   text-align: center;
-  color: white;
+  color: #fff;
   background-color: #7abaff;
   background-image: url("");
   background-repeat: no-repeat;
@@ -51,7 +52,34 @@ ul {
   background-color: #46b979;
 }
 
+.header-number {
+  font-weight: 100;
+}
 
+.col-arrows {
+    margin: auto;
+}
+
+.fas {
+    font-size: 1em;
+}
+
+.col-arrows {
+    padding: 0;
+}
+
+.col-arrows h3, .col-pokemon h3 {
+    font-size: 0.75rem;
+}
+
+.col-pokemon-middle {
+      padding: 0 10px;
+}
+
+body.pokemon .img-fluid.img-dex {
+  max-width: 100%;
+  padding: 0;
+}
 
 
 
@@ -87,21 +115,21 @@ ul {
 
 /* M */
 @media only screen and (max-width: 600px) {
-  .col-style {
+  body.index .col-style {
     display: none;
   }
 }
 
 /* L */
 @media only screen and (max-width: 992px) {
-  .col-no, .col-hp, .col-atk {
+  body.index .col-no, .col-hp, .col-atk {
     display: none;
   }
 }
 
 /* XL */
 @media only screen and (max-width: 1350px) {
-  .col-recipe {
+  body.index .col-recipe {
     display: none;
   }
 }
