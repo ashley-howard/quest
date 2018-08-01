@@ -81,11 +81,12 @@ ul {
   padding-top: 85px;
 }
 
-.navbar-green {
+.navbar-green, .jumbotron-green {
   background: linear-gradient(120deg,#14d867,rgba(7,135,225,.79));
 }
-.jumbotron-green {
-  background: linear-gradient(120deg,#14d867,rgba(7,135,225,.79));
+
+.navbar-grass, .jumbotron-grass {
+  background: linear-gradient(120deg,#004c20,rgba(103, 241, 69, 0.9));
 }
 
 .header-number {
@@ -119,6 +120,10 @@ body.pokemon .img-fluid.img-dex {
 
 .row-pokemon div {
   margin: auto;
+}
+
+.img-recipe {
+    max-width: 60px;
 }
 
 
