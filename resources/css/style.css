@@ -1,0 +1,38 @@
+ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.row-header {
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.row-pokemon {
+    text-align: center;
+}
+
+.img-fluid.img-dex {
+    max-width: 65%;
+}
+
+/* M */
+@media only screen and (max-width: 600px) {
+  .col-style {
+    display: none;
+  }
+}
+
+/* L */
+@media only screen and (max-width: 992px) {
+  .col-no, .col-hp, .col-atk {
+    display: none;
+  }
+}
+
+/* XL */
+@media only screen and (max-width: 1350px) {
+  .col-recipe {
+    display: none;
+  }
+}
