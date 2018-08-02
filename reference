@@ -1,7 +1,42 @@
+Types
+
 <a href="types/bug" class="bug"><i class="fas fa-bug"></i></a>
 <a href="types/poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
 <a href="types/grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
 <a href="types/fire" class="fire"><i class="fab fa-hotjar"></i></a>
 <a href="types/flying" class="flying"><i class="fas fa-dove"></i></a>
 <a href="types/water" class="water"><i class="fas fa-tint"></i></a>
-<i class="fas fa-bolt"></i>
+<a href="types/water" class="electric"><i class="fas fa-bolt"></i></a>
+
+
+Recipes
+
+<a href="recipes/mulligan-stew" title="Mulligan Stew"><img src="resources/img/recipes/mulligan-stew.png" class="img-fluid img-recipe"></a>
+<a href="recipes/yellow-curry" title="Yellow Curry"><img src="resources/img/recipes/yellow-curry.png" class="img-fluid img-recipe"></a>
+<a href="recipes/sludge-soup" title="Sludge Soup"><img src="resources/img/recipes/sludge-soup.png" class="img-fluid img-recipe"></a>
+<a href="recipes/veggie-smoothie" title="Veggie Smoothie"><img src="resources/img/recipes/veggie-smoothie.png" class="img-fluid img-recipe"></a>
+
+
+
+Evolution
+
+<div class="container-fluid">
+  <div class="row row-header">
+
+    <div class="col col-pokemon">
+      <h3>Bulbasaur</h3>
+      <a href="pokemon/001"><img src="resources/img/pokemon/001.png" class="img-fluid img-dex"></a>
+    </div>
+
+    <div class="col col-evolution-arrows">
+      <h3>Lv. 16</h3>
+      <i class="fas fa-arrow-right fa-2x"></i>
+    </div>
+
+    <div class="col col-pokemon col-pokemon-middle">
+      <h3>Ivysaur</h3>
+      <a href="pokemon/001"><img src="resources/img/pokemon/002.png" class="img-fluid img-dex"></a>
+    </div>
+
+  </div>
+</div>

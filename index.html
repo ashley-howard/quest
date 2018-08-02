@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="theme-color" content="#7abaff"><!-- Blue -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="resources/css/reset.css">
@@ -12,13 +13,13 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="resources/css/style.css">
 
-  <title>Pokemon Quest | Home</title>
+  <title>Pokemon Quest</title>
 </head>
 <body class="index">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">Pokémon Quest</a>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-pokedex">
+    <a class="navbar-brand" href="./">Pokémon Quest</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,31 +27,36 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Recipes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Moves</a>
+          <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
+          <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Pokémon
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="pokemon/001">#001 - Bulbasaur</a>
+            <a class="dropdown-item" href="pokemon/002">#002 - Ivysaur</a>
+            <a class="dropdown-item" href="pokemon/003">#003 - Venusaur</a>
           </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./recipes">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./moves">Moves</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./info" target="_blank">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.ashley.how" target="_blank" title="Find me on Github!"><i class="fab fa-github"></i></a>
         </li>
       </ul>
     </div>
   </nav>
 
   <!-- Banner -->
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid jumbotron-pokedex">
     <div class="container">
             <h3 class="header-number">#000 - 151</h3>
       <h1 class="display-4">Pokédex</h1>
@@ -118,8 +124,8 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-        <a href="types/grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
-        <a href="types/poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
+        <a href="types/grass" title="Grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
+        <a href="types/poison" title="Poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -135,10 +141,10 @@
     </div>
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
-      <a href="recipes/mulligan-stew"><img src="resources/img/recipes/mulligan-stew.png" class="img-fluid img-recipe"></a>
-      <a href="recipes/yellow-curry"><img src="resources/img/recipes/yellow-curry.png" class="img-fluid img-recipe"></a>
-      <a href="recipes/sludge-soup"><img src="resources/img/recipes/sludge-soup.png" class="img-fluid img-recipe"></a>
-      <a href="recipes/veggie-smoothie"><img src="resources/img/recipes/veggie-smoothie.png" class="img-fluid img-recipe"></a>
+      <a href="recipes/mulligan-stew" title="Mulligan Stew"><img src="resources/img/recipes/mulligan-stew.png" class="img-fluid img-recipe"></a>
+      <a href="recipes/yellow-curry" title="Yellow Curry"><img src="resources/img/recipes/yellow-curry.png" class="img-fluid img-recipe"></a>
+      <a href="recipes/sludge-soup" title="Sludge Soup"><img src="resources/img/recipes/sludge-soup.png" class="img-fluid img-recipe"></a>
+      <a href="recipes/veggie-smoothie" title="Veggie Smoothie"><img src="resources/img/recipes/veggie-smoothie.png" class="img-fluid img-recipe"></a>
     </div>
   </div>
 
@@ -158,8 +164,8 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
-      <a href="types/poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
+      <a href="types/grass" title="Grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
+      <a href="types/poison" title="Poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -176,7 +182,6 @@
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
       <div class="container-fluid">
-
         <div class="row row-header">
 
           <div class="col col-pokemon">
@@ -184,7 +189,7 @@
             <a href="pokemon/001"><img src="resources/img/pokemon/001.png" class="img-fluid img-dex"></a>
           </div>
 
-          <div class="col col-arrows">
+          <div class="col col-evolution-arrows">
             <h3>Lv. 16</h3>
             <i class="fas fa-arrow-right fa-2x"></i>
           </div>
@@ -198,7 +203,6 @@
       </div>
 
     </div>
-
   </div>
 
   <!-- 003 - Venusaur -->
@@ -217,8 +221,8 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
-      <a href="types/poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
+      <a href="types/grass" title="Grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
+      <a href="types/poison" title="Poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -243,7 +247,7 @@
             <a href="pokemon/002"><img src="resources/img/pokemon/002.png" class="img-fluid img-dex"></a>
           </div>
 
-          <div class="col col-arrows">
+          <div class="col col-evolution-arrows">
             <h3>Lv. 32</h3>
             <i class="fas fa-arrow-right fa-2x"></i>
           </div>
@@ -274,7 +278,7 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/fire" class="fire"><i class="fab fa-hotjar"></i></a>
+      <a href="types/fire" title="Fire" class="fire"><i class="fab fa-hotjar"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -290,11 +294,9 @@
     </div>
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
-      <ul>
-        <li><a href="recipes/mulligan-stew">Mulligan Stew à la Cube</a></li>
-        <li><a href="recipes/blue-soda">Blue Soda à la Cube</a></li>
-        <li><a href="recipes/mouth-watering-dip">Mouth-Watering Dip à la Cube</a></li>
-      </ul>
+      <a href="recipes/mulligan-stew" title="Mulligan Stew"><img src="resources/img/recipes/mulligan-stew.png" class="img-fluid img-recipe"></a>
+      <a href="recipes/red-stew" title="Red Stew"><img src="resources/img/recipes/red-stew.png" class="img-fluid img-recipe"></a>
+      <a href="recipes/hot-pot" title="Hot Pot"><img src="resources/img/recipes/hot-pot.png" class="img-fluid img-recipe"></a>
     </div>
   </div>
 
@@ -314,7 +316,7 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/fire" class="fire"><i class="fab fa-hotjar"></i></a>
+      <a href="types/fire" title="Fire" class="fire"><i class="fab fa-hotjar"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -330,7 +332,27 @@
     </div>
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
-      Evolve Charmander (Lv. 16)
+      <div class="container-fluid">
+
+        <div class="row row-header">
+
+          <div class="col col-pokemon">
+            <h3>Charmander</h3>
+            <a href="pokemon/004"><img src="resources/img/pokemon/004.png" class="img-fluid img-dex"></a>
+          </div>
+
+          <div class="col col-evolution-arrows">
+            <h3>Lv. 16</h3>
+            <i class="fas fa-arrow-right fa-2x"></i>
+          </div>
+
+          <div class="col col-pokemon col-pokemon-middle">
+            <h3>Charmeleon</h3>
+            <a href="pokemon/005"><img src="resources/img/pokemon/005.png" class="img-fluid img-dex"></a>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
 
@@ -350,8 +372,8 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/fire" class="fire"><i class="fab fa-hotjar"></i></a>
-      <a href="types/flying" class="flying"><i class="fas fa-dove"></i></a>
+      <a href="types/fire" title="Fire" class="fire"><i class="fab fa-hotjar"></i></a>
+      <a href="types/flying" title="Flying" class="flying"><i class="fas fa-dove"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -367,7 +389,27 @@
     </div>
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
-      Evolve Charmeleon (Lv. 36)
+      <div class="container-fluid">
+
+        <div class="row row-header">
+
+          <div class="col col-pokemon">
+            <h3>Charmeleon</h3>
+            <a href="pokemon/005"><img src="resources/img/pokemon/005.png" class="img-fluid img-dex"></a>
+          </div>
+
+          <div class="col col-evolution-arrows">
+            <h3>Lv. 32</h3>
+            <i class="fas fa-arrow-right fa-2x"></i>
+          </div>
+
+          <div class="col col-pokemon col-pokemon-middle">
+            <h3>Charizard</h3>
+            <a href="pokemon/006"><img src="resources/img/pokemon/006.png" class="img-fluid img-dex"></a>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
 
@@ -387,7 +429,7 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/water" class="water"><i class="fas fa-tint"></i></a>
+      <a href="types/water" title="Water" class="water"><i class="fas fa-tint"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -403,11 +445,9 @@
     </div>
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
-      <ul>
-        <li><a href="recipes/mulligan-stew">Mulligan Stew à la Cube</a></li>
-        <li><a href="recipes/blue-soda">Blue Soda à la Cube</a></li>
-        <li><a href="recipes/mouth-watering-dip">Mouth-Watering Dip à la Cube</a></li>
-      </ul>
+      <a href="recipes/mulligan-stew" title="Mulligan Stew"><img src="resources/img/recipes/mulligan-stew.png" class="img-fluid img-recipe"></a>
+      <a href="recipes/blue-soda" title="Blue Soda"><img src="resources/img/recipes/blue-soda.png" class="img-fluid img-recipe"></a>
+      <a href="recipes/mouth-watering-dip" title="Mouth Watering Dip"><img src="resources/img/recipes/mouth-watering-dip.png" class="img-fluid img-recipe"></a>
     </div>
   </div>
 
@@ -427,7 +467,7 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/water" class="water"><i class="fas fa-tint"></i></a>
+      <a href="types/water" title="Water" class="water"><i class="fas fa-tint"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -443,7 +483,27 @@
     </div>
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
-      Evolve Squirtle (Lv. 16)
+      <div class="container-fluid">
+
+        <div class="row row-header">
+
+          <div class="col col-pokemon">
+            <h3>Squirtle</h3>
+            <a href="pokemon/007"><img src="resources/img/pokemon/007.png" class="img-fluid img-dex"></a>
+          </div>
+
+          <div class="col col-evolution-arrows">
+            <h3>Lv. 16</h3>
+            <i class="fas fa-arrow-right fa-2x"></i>
+          </div>
+
+          <div class="col col-pokemon col-pokemon-middle">
+            <h3>Wartortle</h3>
+            <a href="pokemon/008"><img src="resources/img/pokemon/008.png" class="img-fluid img-dex"></a>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
 
@@ -463,7 +523,7 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/water" class="water"><i class="fas fa-tint"></i></a>
+      <a href="types/water" title="Water" class="water"><i class="fas fa-tint"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -479,7 +539,26 @@
     </div>
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
-      Evolve Wartortle (Lv. 36)
+      <div class="container-fluid">
+        <div class="row row-header">
+
+          <div class="col col-pokemon">
+            <h3>Wartortle</h3>
+            <a href="pokemon/008"><img src="resources/img/pokemon/008.png" class="img-fluid img-dex"></a>
+          </div>
+
+          <div class="col col-evolution-arrows">
+            <h3>Lv. 36</h3>
+            <i class="fas fa-arrow-right fa-2x"></i>
+          </div>
+
+          <div class="col col-pokemon col-pokemon-middle">
+            <h3>Blastoise</h3>
+            <a href="pokemon/009"><img src="resources/img/pokemon/009.png" class="img-fluid img-dex"></a>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
 
@@ -499,7 +578,7 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/bug" class="bug"><i class="fas fa-bug"></i></a>
+      <a href="types/bug" title="Bug" class="bug"><i class="fas fa-bug"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -516,7 +595,7 @@
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
       <ul>
-        <li><a href="recipes/mulligan-stew">Mulligan Stew à la Cube</a></li>
+        <li><a href="recipes/mulligan-stew" title="Mulligan Stew">Mulligan Stew à la Cube</a></li>
         <li><a href="recipes/blue-soda">Blue Soda à la Cube</a></li>
       </ul>
     </div>
@@ -538,7 +617,7 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/bug" class="bug"><i class="fas fa-bug"></i></a>
+      <a href="types/bug" title="Bug" class="bug"><i class="fas fa-bug"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -574,8 +653,8 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/bug" class="bug"><i class="fas fa-bug"></i></a>
-      <a href="types/flying" class="flying"><i class="fas fa-dove"></i></a>
+      <a href="types/bug" title="Bug" class="bug"><i class="fas fa-bug"></i></a>
+      <a href="types/flying" title="Flying" class="flying"><i class="fas fa-dove"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -611,8 +690,8 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/bug" class="bug"><i class="fas fa-bug"></i></a>
-      <a href="types/poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
+      <a href="types/bug" title="Bug" class="bug"><i class="fas fa-bug"></i></a>
+      <a href="types/poison" title="Poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -629,8 +708,8 @@
     <!-- Recipe - Only show on LG+ -->
     <div class="col-recipe col-3">
       <ul>
-        <li><a href="recipes/mulligan-stew">Mulligan Stew à la Cube</a></li>
-        <li><a href="recipes/yellow-curry">Yellow Curry à la Cube</a></li>
+        <li><a href="recipes/mulligan-stew" title="Mulligan Stew">Mulligan Stew à la Cube</a></li>
+        <li><a href="recipes/yellow-curry" title="Yellow Curry">Yellow Curry à la Cube</a></li>
       </ul>
     </div>
   </div>
@@ -651,8 +730,8 @@
     </div>
     <!-- Type -->
     <div class="col-type col-4 col-sm-4 col-md-3 col-lg-2">
-      <a href="types/bug" class="bug"><i class="fas fa-bug"></i></a>
-      <a href="types/poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
+      <a href="types/bug" title="Bug" class="bug"><i class="fas fa-bug"></i></a>
+      <a href="types/poison" title="Poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
     </div>
     <!-- Style - Only show on MD+ -->
     <div class="col-style col-3 col-sm-3 col-md-3 col-lg-1">
@@ -673,18 +752,22 @@
   </div>
 
 
-
-
 </div>
 
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2018 Copyright:
-  Pokémon And All Respective Names are Trademark & © of Nintendo 1996-2018
+<!-- Footer -->
+<div class="footer-copyright text-center py-3">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col col-footer">
+        <a href="https://paypal.me/ahowardit" target="_blank" class="coffee">Why not buy me a coffee? <i class="fas fa-coffee"></i></a>
+        <br>
+        © 2018 Copyright:
+        Pokémon And All Respective Names are Trademark & © of Nintendo 1996-2018
+      </div>
+
+    </div>
+  </div>
 </div>
-<!-- Copyright -->
-
-
-
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

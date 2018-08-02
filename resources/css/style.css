@@ -7,6 +7,10 @@ a, a:hover {
   text-decoration: none;
 }
 
+.dropdown:hover {
+  cursor: pointer;
+}
+
 a.grass {
   color: #3ab73a
 }
@@ -36,7 +40,7 @@ a.water {
 }
 
 /* Navbar */
-.bg-primary {
+.jumbotron-pokedex, .navbar-pokedex {
   background: linear-gradient(120deg,rgba(7,135,225,.79),#9cc5f78c) !important;
 }
 
@@ -47,6 +51,9 @@ button.navbar-toggler:focus {
 .jumbotron {
   text-align: center;
   color: #fff;
+}
+
+.jumbotron-pokedex {
   background: linear-gradient(120deg,rgba(7,135,225,.79),#9cc5f78c);
 }
 
@@ -55,7 +62,7 @@ ul {
   list-style-type: none;
 }
 
-.row-header {
+.row-header, .row-3-evolution {
   text-align: center;
   font-weight: 500;
   font-size: 0.9em;
@@ -81,7 +88,7 @@ ul {
   padding-top: 85px;
 }
 
-.navbar-green, .jumbotron-green {
+.navbar-green-blue, .jumbotron-green-blue {
   background: linear-gradient(120deg,#14d867,rgba(7,135,225,.79));
 }
 
@@ -93,19 +100,16 @@ ul {
   font-weight: 100;
 }
 
-.col-arrows {
+.col-evolution-arrows {
   margin: auto;
-}
-
-.fas {
-  font-size: 1em;
-}
-
-.col-arrows {
   padding: 0;
 }
 
-.col-arrows h3, .col-pokemon h3 {
+.col-evolution-arrows i {
+  font-size: 1em;
+}
+
+ .col-evolution-arrows h3, .col-pokemon h3 {
   font-size: 0.75rem;
 }
 
@@ -119,12 +123,18 @@ body.pokemon .img-fluid.img-dex {
 }
 
 .row-pokemon div {
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .img-recipe {
     max-width: 60px;
 }
+
+a.coffee {
+    color: #9c6a46;
+}
+
 
 
 
@@ -149,6 +159,13 @@ body.pokemon .img-fluid.img-dex {
   margin-top: 5em;
 }
 
+@media only screen and (min-width: 768px) {
+  body.pokemon .col-evolution-arrows i {
+    font-size: 2em !important;
+  }
+}
+
+
 @media only screen and (min-width: 992px) {
   .jumbotron {
     margin-top: -56px;
@@ -159,11 +176,18 @@ body.pokemon .img-fluid.img-dex {
     background: transparent !important;
     position: inherit;
   }
+
+  body.pokemon .col-evolution-arrows i {
+    font-size: 3em !important;
+  }
 }
 
 @media only screen and (min-width: 1350px) {
   .row-pokemon {
     min-height: 120px;
+  }
+  body.pokemon .col-evolution-arrows i {
+    font-size: 3.5em !important;
   }
 }
 
