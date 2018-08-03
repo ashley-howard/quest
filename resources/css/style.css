@@ -65,6 +65,10 @@ a.ground {
    color: #690b0b;
  }
 
+ a.dragon {
+   color: #484848;
+ }
+
 .col-type .fas, .col-type .fab {
     font-size: 1.5em;
 }
