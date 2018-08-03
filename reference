@@ -1,23 +1,22 @@
 Types
 
 <a href="types/bug" title="Bug" class="bug"><i class="fas fa-bug"></i></a>
-<a href="types/poison" title="Poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
-<a href="types/grass" title="Grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
+<a href="types/dragon" title="Dragon" class="dragon"><i class="fab fa-d-and-d"></i></a>
+<a href="types/electric" title="Electric" class="electric"><i class="fas fa-bolt"></i></a>
+<a href="types/fairy" title="Fairy" class="fairy"><i class="fab fa-studiovinari"></i></a>
+<a href="types/fighting" title="Fighting" class="fighting"><i class="fas fa-hand-rock"></i></a>
 <a href="types/fire" title="Fire" class="fire"><i class="fab fa-hotjar"></i></a>
 <a href="types/flying" title="Flying" class="flying"><i class="fas fa-dove"></i></a>
-<a href="types/water" title="Water" class="water"><i class="fas fa-tint"></i></a>
-<a href="types/electric" title="Electric" class="electric"><i class="fas fa-bolt"></i></a>
-<a href="types/normal" title="Normal" class="normal"><i class="far fa-grin-beam"></i></a>
-<a href="types/ice" title="Ice" class="ice"><i class="far fa-snowflake"></i></a>
 <a href="types/ghost" title="Ghost" class="ghost"><i class="fab fa-snapchat-ghost"></i></a>
-<a href="types/steel" title="Steel" class="steel"><i class="fas fa-cube"></i></a>
-<a href="types/psychic" title="Psychic" class="psychic"><i class="fas fa-diagnoses"></i></a>
-<a href="types/fairy" title="Fairy" class="fairy"><i class="fab fa-studiovinari"></i></a>
-<a href="types/dragon" title="Dragon" class="dragon"><i class="fab fa-d-and-d"></i></a>
-<a href="types/rock" title="Rock" class="rock"><i class="fas fa-cubes"></i></a>
+<a href="types/grass" title="Grass" class="grass"><i class="fas fa-leaf fa-2x"></i></a>
 <a href="types/ground" title="Ground" class="ground"><i class="fas fa-globe"></i></a>
-<a href="types/fighting" title="Fighting" class="fighting"><i class="fas fa-hand-rock"></i></a>
-
+<a href="types/ice" title="Ice" class="ice"><i class="far fa-snowflake"></i></a>
+<a href="types/normal" title="Normal" class="normal"><i class="far fa-grin-beam"></i></a>
+<a href="types/poison" title="Poison" class="poison"><i class="fas fa-skull fa-2x"></i></a>
+<a href="types/psychic" title="Psychic" class="psychic"><i class="fas fa-diagnoses"></i></a>
+<a href="types/rock" title="Rock" class="rock"><i class="fas fa-cubes"></i></a>
+<a href="types/steel" title="Steel" class="steel"><i class="fas fa-cube"></i></a>
+<a href="types/water" title="Water" class="water"><i class="fas fa-tint"></i></a>
 
 
 Recipes
@@ -37,6 +36,10 @@ Recipes
 <a href="recipes/brain-food" title="Brain Food"><img src="resources/img/recipes/brain-food.png" class="img-fluid img-recipe"></a>
 <a href="recipes/get-swole-syrup" title="Get Swole Syrup"><img src="resources/img/recipes/get-swole-syrup.png" class="img-fluid img-recipe"></a>
 <a href="recipes/stone-soup" title="Stone Soup"><img src="resources/img/recipes/stone-soup.png" class="img-fluid img-recipe"></a>
+<a href="recipes/watt-a-risotto" title="Watt a Risotto"><img src="resources/img/recipes/recipes/watt-a-risotto.png" class="img-fluid img-recipe"></a>
+<a href="recipes/light-as-air-casserole" title="Light-as-Air Casserole"><img src="resources/img/recipes/light-as-air-casserole.png" class="img-fluid img-recipe"></a>
+<a href="recipes/ambrosia-of-legends" title="Ambrosia of Legends"><img src="resources/img/recipes/ambrosia-of-legends.png" class="img-fluid img-recipe"></a>
+
 
 
 Evolution

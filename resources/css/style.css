@@ -11,6 +11,10 @@ a, a:hover {
   cursor: pointer;
 }
 
+a.normal {
+  color: #d4d4c5;
+}
+
 a.grass {
   color: #3ab73a
 }
@@ -34,6 +38,32 @@ a.bug {
 a.water {
   color: #89ccfb;
 }
+
+a.electric {
+    color: #fbfb12;
+    text-shadow: 1px 1px #d2d2d2;
+}
+
+a.ground {
+    color: #a75221;
+}
+
+ a.fairy {
+   color: #ffb6c3;
+   text-shadow: 1px 1px #d2d2d2;
+ }
+
+ a.fighting {
+   color: #b16631;
+ }
+
+ a.psychic {
+   color: #c36ac3;
+ }
+
+ a.rock {
+   color: #690b0b;
+ }
 
 .col-type .fas, .col-type .fab {
     font-size: 1.5em;
@@ -155,6 +185,18 @@ a.coffee {
 .gender {
   font-family: monospace;
 }
+
+i.fa-heart.fa-hp {
+ color: #86cde4;
+}
+
+i.fa-hand-rock.fa-atk {
+    color: #ec804c;
+}
+
+
+
+
 
 /*-- CONTACT PAGE --*/
 section.contact {
