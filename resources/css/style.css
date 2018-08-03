@@ -96,6 +96,11 @@ ul {
   background: linear-gradient(120deg,#004c20,rgba(103, 241, 69, 0.9));
 }
 
+.navbar-red-blue, .jumbotron-red-blue, .btn {
+  background: linear-gradient(120deg,#fd1700,rgba(7,135,225,.79));
+  color: white;
+}
+
 .header-number {
   font-weight: 100;
 }
@@ -135,7 +140,26 @@ a.coffee {
     color: #9c6a46;
 }
 
+.container.info {
+  text-align: center;
+}
 
+.fa-heart {
+  color:#da3c3c;
+}
+
+.far {
+    font-size: 1.5rem;
+}
+
+.gender {
+  font-family: monospace;
+}
+
+/*-- CONTACT PAGE --*/
+section.contact {
+    margin: auto;
+}
 
 
 
@@ -162,6 +186,10 @@ a.coffee {
 @media only screen and (min-width: 768px) {
   body.pokemon .col-evolution-arrows i {
     font-size: 2em !important;
+  }
+
+  section.contact {
+      max-width: 35em;
   }
 }
 
