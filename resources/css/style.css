@@ -15,79 +15,81 @@ a, a:hover {
   font-size: 0.6em;
   padding: 2px 2.5px;
   color: white;
-  text-transform: uppercase;
-}
-
-a.normal-text {
-  background-color: #d4d4c5;
-}
-
-a.grass-text {
-  background-color: #3ab73a;
-}
-
-a.poison-text {
-    background-color: #c755c7;
-}
-
-a.fire-text {
-    background-color: #e65a5a;
-}
-
-a.ice-text {
-    background-color: #74c9fb;
-}
-
-a.flying-text {
-  background-color: #c7a3d6;
+  text-transform: capitalize;
+  border-radius: 2px;
 }
 
 a.bug-text {
   background-color:#a0da43;
 }
 
+a.dragon-text {
+  background-color: #9d29b9;
+}
+
+a.electric-text {
+  background-color: #f3d024;
+}
+
+a.fairy-text {
+  background-color: #ffb6c3;
+}
+
+a.fighting-text {
+  background-color: #864516;
+}
+
+a.fire-text {
+  background-color: #e65a5a;
+}
+
+a.flying-text {
+  background-color: #c7a3d6;
+}
+
+a.ghost-text {
+  background-color: #756f94;
+}
+
+a.grass-text {
+  background-color: #3ab73a;
+}
+
+a.ground-text {
+  background-color: #d4bb63;
+}
+
+a.ice-text {
+  background-color: #74c9fb;
+}
+
+a.normal-text {
+  background-color: #d4d4c5;
+}
+
+a.poison-text {
+  background-color: #c755c7;
+}
+
+a.psychic-text {
+  background-color: #c36ac3;
+}
+
+a.rock-text {
+  background-color: #c77751;
+}
+
+a.steel-text {
+  background-color: #adb5bb;
+}
+
 a.water-text {
   background-color: #51b0f3;
 }
 
-a.electric-text {
-    background-color: #eaea26;
-}
-
-a.ground-text {
-    background-color: #d4bb63;
-}
-
- a.fairy-text {
-   background-color: #ffb6c3;
- }
-
- a.ghost-text {
-   background-color: #756f94;
- }
-
- a.steel-text {
-   background-color: #adb5bb;
- }
-
- a.fighting-text {
-   background-color: #864516;
- }
-
- a.psychic-text {
-   background-color: #c36ac3;
- }
-
- a.rock-text {
-   background-color: #c77751;
- }
-
- a.dragon-text {
-   background-color: #9d29b9;
- }
 
 .col-type .fas, .col-type .fab {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 /* Navbar */
@@ -165,7 +167,7 @@ ul {
   font-size: 1em;
 }
 
- .col-evolution-arrows h3, .col-pokemon h3 {
+.col-evolution-arrows h3, .col-pokemon h3 {
   font-size: 0.75rem;
 }
 
@@ -184,11 +186,11 @@ body.pokemon .img-fluid.img-dex {
 }
 
 .img-recipe {
-    max-width: 60px;
+  max-width: 60px;
 }
 
 a.coffee {
-    color: #9c6a46;
+  color: #9c6a46;
 }
 
 .container.info {
@@ -200,7 +202,7 @@ a.coffee {
 }
 
 .far {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .gender {
@@ -208,11 +210,11 @@ a.coffee {
 }
 
 i.fa-heart.fa-hp {
- color: #86cde4;
+  color: #86cde4;
 }
 
 i.fa-hand-rock.fa-atk {
-    color: #ec804c;
+  color: #ec804c;
 }
 
 
@@ -221,7 +223,7 @@ i.fa-hand-rock.fa-atk {
 
 /*-- CONTACT PAGE --*/
 section.contact {
-    margin: auto;
+  margin: auto;
 }
 
 
@@ -252,7 +254,7 @@ section.contact {
   }
 
   section.contact {
-      max-width: 35em;
+    max-width: 35em;
   }
 }
 
@@ -286,10 +288,6 @@ section.contact {
 @media only screen and (max-width: 600px) {
   body.index .col-style {
     display: none;
-  }
-
-  .col-type a {
-    font-size: 0.5em;
   }
 }
 

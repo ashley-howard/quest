@@ -8,11 +8,11 @@ Types
 <a href="types/fire" class="fire-text">fire</a>
 <a href="types/flying" class="flying-text">flying</a>
 <a href="types/ghost" class="ghost-text">ghost</a>
-<a href="types/grass" class="grass-text">GRASS</a>
+<a href="types/grass" class="grass-text">grass</a>
 <a href="types/ground" class="ground-text">ground</a>
 <a href="types/ice" class="ice-text">ice</a>
 <a href="types/normal" class="normal-text">normal</a>
-<a href="types/poison" class="poison-text">POISON</a>
+<a href="types/poison" class="poison-text">poison</a>
 <a href="types/psychic" class="psychic-text">psychic</a>
 <a href="types/rock" class="rock-text">rock</a>
 <a href="types/steel" class="steel-text">steel</a>
